@@ -1,7 +1,7 @@
 public class less4 {
 
     public static int getRandomDiceNumber() {
-        return (int) (Math.random()*6);
+        return (int) (Math.random()*6)+1;
     }
     public static void main(String args[]){
 
